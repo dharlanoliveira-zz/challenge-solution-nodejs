@@ -4,6 +4,7 @@
   "description": "Implementing solution for a challenge required in a hiring process",
   "main": "src/app.mjs",
   "scripts": {
+    "start": "node src/app.mjs",
     "test": "jasmine --config=jasmine.json"
   },
   "repository": {
