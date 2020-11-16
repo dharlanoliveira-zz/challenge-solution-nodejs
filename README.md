@@ -40,11 +40,11 @@ These methods are used in different points of the source code.
 
 #### How to run app
 
-**npm start**
+*npm start*
 
-Run the application. (Alternative to **node src/entrypoint.mjs**)
+Run the application. (Alternative to *node src/entrypoint.mjs*)
 
-**npm test** 
+*npm test* 
 
 Run all tests
 
