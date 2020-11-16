@@ -81,7 +81,7 @@ POST http://localhost:3000/calculate?rule=custom1
 
 #### Available custom rules
 
-There are just two options to parameter rule: custom1 and custom2. Any other value used will cause the use
+There are just two options to parameter rule: **custom1** and **custom2**. Any other value used will cause the use
 of base rules.
 
 ## Architectural choices ##
