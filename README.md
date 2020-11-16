@@ -16,6 +16,8 @@ call the REST API, you are able to say what rules set you want to use.
 There is one source folder "src", and all sources files are inside it. All tests
 are in the same folder of the file being tested.
 
+All tests names ends with *_spec.mjs*
+
 Inside the "src" folder, there are three folders and the root:
 
 **root**
