@@ -1,6 +1,6 @@
 # challenge-solution
 
-###Nodejs version
+## Nodejs version ##
 
 The project was developed and tested in node **v14.12.0**. You need
 to have it installed if you want to run the app or tests.
@@ -53,7 +53,7 @@ is responsible to install locally the dependencies of the project.
 
 ### Endpoints
 
-####Base rules
+#### Base rules
 ```
 POST http://localhost:3000/calculate
 {
@@ -66,7 +66,7 @@ POST http://localhost:3000/calculate
 }
 ```
 
-####Custom rules
+#### Custom rules
 ```
 POST http://localhost:3000/calculate?rule=custom1
 {
@@ -79,7 +79,7 @@ POST http://localhost:3000/calculate?rule=custom1
 }
 ```
 
-###$Available custom rules
+#### Available custom rules
 
 There are just two options to parameter rule: custom1 and custom2. Any other value used will cause the use
 of base rules.
@@ -101,7 +101,7 @@ I needed to use the extension ".mjs" for source and test files. This option is u
 problems to configure jasmine to use ".js" extension with es6 modules. As this is not the critical point 
 of the challenge, I preferred avoid dealing with this problem. 
 
-## Rest
+### Rest
 
 I have chosen REST + HTTP as protocol to interact with my app. This choice is related to the recommendation
 in the challenge. 
