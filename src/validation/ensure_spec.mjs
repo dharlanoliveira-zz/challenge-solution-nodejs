@@ -1,4 +1,4 @@
-import {ensureBody} from "./assertions.mjs";
+import {ensureBody} from "./ensure.mjs";
 
 describe("testing method that ensure body http requisition is valid", function() {
 

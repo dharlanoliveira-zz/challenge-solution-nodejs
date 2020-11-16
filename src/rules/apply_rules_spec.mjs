@@ -37,7 +37,7 @@ describe("testing apply rules to input", function() {
         expect(rulesBase.rule_xxx).toHaveBeenCalled()
     })
 
-    fit("applyRulesToInput should return the result of the rule", function() {
+    it("applyRulesToInput should return the result of the rule", function() {
         let rules = {...fakeRules}
         rules.rule_not_a_b_c = () => {
             return { "h": 33, "k": 12}
@@ -48,7 +48,7 @@ describe("testing apply rules to input", function() {
         expect(result.k).toEqual(12)
     })
 
-    fit("applyRulesToInput should return first result", function() {
+    it("applyRulesToInput should return first result", function() {
         let rules = {...fakeRules}
         rules.rule_a_b_c = () => {
             return { "h": 12, "k": 1}

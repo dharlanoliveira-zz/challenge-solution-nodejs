@@ -1,4 +1,4 @@
-import {isBoolean} from "./rules.mjs"
+import {isBoolean} from "./validation.mjs"
 
 describe("testing rules method isBoolean", function() {
     it("isBoolean shouldn't return message when the field is boolean", function() {

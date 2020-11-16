@@ -1,4 +1,4 @@
-import {isBoolean, isFloat, isInt, isNotEmpty} from "./rules.mjs"
+import {isBoolean, isFloat, isInt, isNotEmpty} from "./validation.mjs"
 
 describe("testing rules method isInt", function() {
 

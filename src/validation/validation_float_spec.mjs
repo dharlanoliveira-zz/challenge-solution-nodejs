@@ -1,4 +1,4 @@
-import {isFloat} from "./rules.mjs"
+import {isFloat} from "./validation.mjs"
 
 describe("testing rules method isFloat", function() {
 

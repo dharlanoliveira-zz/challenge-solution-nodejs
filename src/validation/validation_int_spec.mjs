@@ -1,4 +1,4 @@
-import {isInt} from "./rules.mjs"
+import {isInt} from "./validation.mjs"
 
 describe("testing rules method isInt", function() {
 

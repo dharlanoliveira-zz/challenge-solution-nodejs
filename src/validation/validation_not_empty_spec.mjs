@@ -1,4 +1,4 @@
-import {isNotEmpty} from "./rules.mjs"
+import {isNotEmpty} from "./validation.mjs"
 
 describe("testing rules method isNotEmpty", function() {
 
